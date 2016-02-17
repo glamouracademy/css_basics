@@ -1,0 +1,462 @@
+/* --- Header -- */
+
+.main-header {
+	background: url('../img/header_cat.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+	background-color: darkblue;
+	height: 850px;
+	color: #fff;
+	text-align: center;
+	padding-top: 170px;
+}
+
+.arrow {
+	color: #fff;
+	width: 50px;
+	
+	display: block;
+	margin: 180px auto 0;
+
+}
+
+/* -- Font styles -- */
+
+h1,
+h2,
+h3,
+h4,
+span,
+p {
+	font-family: 'Contrail One', cursive;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	text-shadow: 0 10px 10px rgba(0,0,0,.5);
+}
+
+h1 {
+	font-size: 3.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.75em;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 1.50em;
+}
+
+span {
+	font-size: 1.50em;
+}
+
+
+/* -- section styles-- */
+
+section {
+	height: 475px;
+	box-size: border-box;
+	margin: 0 auto;
+	padding-top: 80px;
+	color: #fff;
+}
+
+div {
+	display: table;
+	width: 50%;
+	float: left;
+	height: 100px;
+	text-align: center;
+}
+
+div h3, 
+div p {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div h3 {
+	text-align: right;
+	padding-right: 4em;
+}
+
+div h3:hover {
+	text-decoration: underline;
+}
+
+div p {
+	text-align: left;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 4px 4px 4px rgba(255,255,255,.3);
+}
+
+.background-image-section {
+	background-color: rgba(0,0,0,.8);
+}
+
+li {
+	list-style-type: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.125rem;
+}
+
+/* -- Length section -- */
+
+.length-section {
+	background: url('../img/battle-cat.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-color: darkblue;
+	height: 1200px;
+	width: 100%;
+	border-bottom: 2px solid yellow;
+	padding: 30% 0;
+}
+
+.length-div {
+	width: 100%;
+	background: rgb(96, 96, 96); /* The Fallback */
+  background: rgba(96, 96, 96, 0.6); 
+  padding: 2em 0;
+  border-bottom: 2px solid yellow;
+}
+
+.length-section h1 {
+	background-color: rgb(200, 54, 54);
+	padding-top: 30px;
+	border-bottom: 5px solid yellow;
+	text-align: center;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	-webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.length-section h3 {
+	width: 10px;
+	padding-left: 25%;
+}
+
+.length-section h4 {
+	display: inline-block;
+	padding: 0 2%;
+	width: 20%;
+}
+
+.length-images {
+	background-color: tomato;
+	height: auto;
+	text-align: center;
+}
+
+.length-images img {
+	width: 75%;
+	padding: 1% 0;
+}
+
+
+
+/* -- Webkit section -- */
+
+.webkit-section {
+	background-color: #000;
+	height: auto;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+.webkit-section h1 {
+	text-shadow: 4px 4px 4px rgba(255,255,255,.3);
+}
+
+.webkit-section img {
+	margin: 2% auto;
+	display: block;
+	box-shadow: 0 0 5px tomato;
+}
+
+.webkit-section a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.webkit-section a:hover {
+	color: tomato;
+}
+
+.biz-cat {
+	background-color: #fff;
+	border-radius: 50%;
+	width: 10%;
+	height: 10%;
+}
+
+
+
+/* -- Gradient section -- */
+
+.gradient-section {
+	height: 650px;
+	background-image: linear-gradient(tomato, #ffffb2 60%); 
+	text-align: center;
+}
+
+.gradient-section h1,
+.gradient2-section h1 {
+	text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+.gradient-section img,
+.gradient2-section img {
+	width: 50%;
+	box-shadow: 0 0 50px white;
+}
+
+.gradient2-section {
+	height: 650px;
+	background-image: linear-gradient(#ffffb2, tomato 20%); 
+	text-align: center;
+	border-bottom: 15px solid #1f1f7a;
+	padding-bottom: 25%;
+}
+
+.gradient-section h3,
+.gradient2-section h3 {
+	text-align: center;
+	color: #323232;
+	font-size: 2em;
+	text-shadow: 4px 4px 4px rgba(0,0,0,.3);
+}
+
+/* -- Font section -- */
+
+.font-section {
+	background: url('../img/deathstar.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-color: darkblue;
+	height: 1800px;
+	padding-top: 30%;
+}
+
+.font-section h1 {
+	text-align: center;
+	text-shadow: 4px 4px 4px rgba(255,255,255,.3);
+}
+
+.font-types {
+	width: 25%;
+	background: rgb(96, 96, 96); /* The Fallback */
+  background: rgba(96, 96, 96, 0.6); 
+  border-radius: 15%;
+  margin: 0 4%;
+  border: 2px solid #bfbfbf;
+  height: 250px;
+}
+
+.font-types h4, 
+.font-types p {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.font-types p {
+	font-family: 'Roboto', sans-serif;
+}
+
+.more-font-info {
+	margin-top: 300px;
+	text-align: center;
+	padding-top: 5em;
+	height: auto;	
+	text-shadow: 4px 4px 4px rgba(255,255,255,.3);
+
+}
+
+.more-font-info a,
+.font-methods a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.more-font-info a:hover {
+	color: tomato;
+}
+
+.font-methods {
+	text-align: center;
+	text-shadow: 4px 4px 4px rgba(255,255,255,.3);
+
+}
+
+
+/* -- Media Query section -- */
+
+.media-queries-section {
+	background-color: #1f1f7a;
+	border-top: 15px solid yellow;
+	text-align: center;
+	height: 800px;
+	border-bottom: 15px solid yellow;
+}
+
+.media-queries-section p {
+	font-family: 'Roboto', sans-serif;
+}
+
+.media-queries-section h3 {
+	background-color: tomato;
+	width: 100%;
+}
+
+/* -- Cascade section -- */
+
+.cascade-section {
+	background: url('../img/space-cat-cascade.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-color: darkblue;
+	height: 1800px;
+	padding-top: 30%;
+	-webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+ 
+}
+
+.cascade-section h1 {
+	 text-shadow: 10px 10px 5px rgba(209, 193, 224, 0.5);
+}
+
+.half {
+	max-width: 50%;
+	float: left;
+}
+
+.cascade-rules {
+	padding: 10%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.cascade-rules h3 {
+	text-align: left;
+	text-shadow: 10px 10px 5px rgba(209, 193, 224, 0.5);
+	-webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+
+}
+
+.cascade-rules p {
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+
+#sadface-space {
+	display: inline-block;
+}
+
+
+/* -- Treehouse section -- */
+
+.treehouse-section {
+	background-color: #008000;
+	border-top: 15px solid purple;
+	text-align: center;
+	height: 800px;
+	border-bottom: 15px solid purple;
+	display: block;
+	padding-top: 175px;
+}
+
+.treehouse-section img {
+	background-color: #fff;
+	border-radius: 25%;
+}
+
+.treehouse-section a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	font-size: 1.5em;
+	padding-top: 2%;
+}
+
+.treehouse-section a:hover {
+	color: tomato;
+}
+
+
+
+/*-- Lastly --*/
+
+.lastly {
+	background: url('../img/unicorn.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-color: darkblue;
+	height: 1000px;
+	padding: 30% 3% 0;
+	border-bottom: 15px solid tomato;
+}
+
+.lastly span {
+	font-size: 5.5em;
+	text-shadow: 10px 10px 3px rgba(0,0,0, 0.5);
+}
+
+
+
+/*-- footer --*/
+
+footer {
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+footer a:hover {
+	color: tomato;
+}
+
+
+
+
+
+
+

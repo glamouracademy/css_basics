@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		CSS Basics by glamouracademy
+	</title>
+	<meta charset="UTF-8"
+	<link rel="stylesheet" href="stylesheets/normalize.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,900,700,500,300|Contrail+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="stylesheets/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header class="main-header">
+		<h1>CSS Basics</h1>
+		<span>Adventures in CSS with cats with lazers</span>
+		
+		<a href="#background-image-section"><img src="img/directional25.svg" class="arrow" alt="down arrow"></a>
+
+	</header>
+
+	<section class="background-image-section" id="background-image-section">
+			<h2>
+				Creating the header and centering text
+			</h2>
+			<div>
+					<h3>Expectation</h3>
+			</div>
+			<div>
+					<p>Background image to stay the same size</p>
+			</div>
+			<div>
+					<h3>Challenge</h3>
+			</div>
+			<div>
+					<p>Background image got bigger</p>
+			</div>
+			<div>
+					<h3>Why</h3>
+			</div>
+			<div>
+					<p>Padding makes the box model bigger</p>
+			</div>
+	</section>
+
+	<section class="length-section">
+		<h1>Length</h1>
+		
+		<div class="length-div">
+			<h3>Absolute</h3>
+			<span>Pixels</span>
+			<li>Formerly the smallest unit that could be displayed</li>
+			<li>Now it's an "abstract reference unit"</li>
+			<li>High density devices will re-scale pixel values</li>
+		</div>
+
+		<div class="length-div">
+			<h3>Relative</h3>
+			<li>Relative to other values</li>
+			<li>Independent of screensize and resolution</li>
+			<h4>&#37;</h4>
+				<li>relative to the parent element's length</li>
+				<li>commonly used for layout</li>
+			<h4>em</h4>
+				<li>1em is the font-size value of the parent element</li>
+				<li>child elements resize based on parent element</li>
+				<li>compounds with nesting</li>
+			<h4>rem</h4>
+				<li>relative to the root element of the page</li>
+				<li>more predictable</li>
+		</div>
+
+	</section>
+
+	<section class="webkit-section">
+		<h1>Webkit</h1>
+		<p>Hi Will! Is this the CSS hotline?</p>
+		<img src="img/webkit1.png" alt="image of html with a space">
+		<img src="img/devtools-webkit.png" alt="image of browser dev tools">
+		<img src="img/business-cat.png" class="biz-cat" alt="business cat">
+
+		<a href="http://cssreset.com/scripts/html5-doctor-css-reset-stylesheet/">HTML5 Doctor CSS Reset</a>
+		<img src="img/webkit-solution.png" alt="add webkit new values into css">
+
+		<p>...&amp `outline` vs. `box-shadow`</p>
+	</section>
+	
+	<section class="length-images">
+		<img src="img/length1.png">
+		<img src="img/length2.png">
+		<img src="img/length3.png">
+		<img src="img/length4.png">
+		<img src="img/length5.png">
+	</section>
+	
+	<section class="gradient-section">
+		<h1>GRADIENT</h1>
+		<img src="img/gradient1.png">
+	</section>
+
+	<section class="gradient2-section">
+		<h1>GRADIENT 2</h1>
+		<img src="img/gradient2.png">
+	</section>
+
+	<section class="font-section">
+		<h1>Web Fonts</h1>
+		<div class="font-types">
+			<h4>Embedded Open Type Format - EOT</h4>
+			<p>Internet Explorer 9 compatility mode</p>
+		</div>
+		<div class="font-types">
+			<h4>Web Open Font Format - WOFF</h4>
+			<p>By Mozilla</p> 
+			<p>Supports all modern browsers</p>
+			<p>Loads super fast because it's compressed</p>
+		</div>
+		<div class="font-types">
+			<h4>True Type Format - TTF</h4>
+			<p>Safari, Android, iOS</p>
+		</div>
+
+		<section class="more-font-info">
+			<h3>Other Considerations</h3>
+			<p>Browser support</p>
+			<p>Performance & load time</p>
+			<a href="https://css-tricks.com/snippets/css/using-font-face/">CSS Tricks Using @font-face</a>
+		</section>
+
+		<section class="font-methods">
+			<h3>Ways to Incorporate Custom Fonts</h3>
+			<p>@font-face</p>
+			<p>@import</p>
+			<p>&#9001;link&#9002;</p>
+			<a href="http://stackoverflow.com/questions/12316501/including-google-web-fonts-link-or-import">CSS Tricks Using @font-face</a>
+		</section>
+	</section>
+
+	<section class="media-queries-section">
+		<h1>Media Queries</h1>
+		<h3>Types</h3>
+		<p>all (all devices): default</p>
+		<p>print</p>
+		<p>screen</p>
+		<p>speech</p>
+		<h3>Conditions</h3>
+		<p>width</p>
+		<p>height</p>
+		<p>orientation</p>
+		<h3>Other</h3>
+		<p>Breakpoints: &#64;media screen &#40;min-width&#58; 480px&#41;</p>
+		<p>HTML meta tag:  &#9001;meta name="viewport" content="width=device-width"&#9002;</p>
+	</section>
+
+	<section class="cascade-section">
+		<div class="half">
+			<h1>The Cascade</h1>
+		</div>
+		<div class="half">
+			<div class="cascade-rules" id="sadface-space">
+				<h3>Importance</h3>
+					<p>origin of stylesheet</p>
+					<p>user agent stylesheet: browser default</p>
+					<p>author stylesheet: styles we write</p>
+			</div>
+			<div class="cascade-rules" id="sadface-space">
+				<h3>Specificity</h3>
+				<p>more specific wins</p>
+				<p>ID first</p>
+				<p>last declared</p>
+				<p>inline style wins as it is lowest level of the cascade</p>
+			</div>
+			<div class="cascade-rules" id="sadface-space">
+				<h3>Source Order</h3>
+				<p>last takes precedence</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="treehouse-section">
+		<img src="img/treehouse-logo.png">
+		<a href="https://teamtreehouse.com/tracks/web-design">Web Design Course (e.g. margin)</a>
+		<a href="https://teamtreehouse.com/library/css-layout-techniques">CSS Layout Techniques (e.g. display)</a>
+		<a href="https://teamtreehouse.com/library/web-typography">Web Typography</a>
+	</section>
+
+	<section class="lastly">
+		<span>I really like cats with lazers and text shadows. Can you tell? </span>
+	</section>
+
+
+	<footer>
+		<p>&copy;2016 HandCATfted with Love by  <a href="www.twitter.com/pushorpull">Charlotte Chang</a></p>
+	</footer>
+
+</body>
+</html>
